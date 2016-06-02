@@ -14,4 +14,6 @@ public interface WebUserMapper {
 
     int updateByPrimaryKeySelective(WebUser record);
 
+    WebUser selectByUsername(String username);
+
 }
